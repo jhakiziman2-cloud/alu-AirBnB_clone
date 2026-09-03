@@ -1,6 +1,6 @@
-**AirBnB Clone - The Console**
+# **AirBnB Clone - The Console**
 
- **Description
+## **Description**
 
 This project is the first step in building an AirBnB clone. The goal of this project is to create a command-line interpreter that can be used to manage AirBnB objects.
 
@@ -18,33 +18,33 @@ The project is built using Python and introduces important concepts such as:
 * Command interpreters
 * *args and **kwargs
 
- **Command Interpreter
+### **Command Interpreter**
 
 The command interpreter is a program that provides an interactive command-line interface for managing objects in the AirBnB application.
 
 It works similarly to a shell, but instead of executing general operating-system commands, it executes commands specifically designed for this project.
 
- ***How to Start It
+### **How to Start It**
 
-First, make sure the `console.py` file is executable:
+First, make sure the *console.py* file is executable:
 
 
-*chmod +x console.py
+*chmod +x console.py*
 
 
 Then start the console with:
 
-*bash
+*bash*
 ./console.py
 
 
 You should see:
 
 
-*(hbnb)
+*(hbnb)*
 
 
- *How to Use It
+ *How to Use It*
 
 Once the console is running, commands can be entered at the `(hbnb)` prompt.
 
@@ -61,25 +61,25 @@ EOF  help  quit
 $
 
 
-You can also use `help` to display information about available commands:
+You can also use **help** to display information about available commands:
 
 
-*(hbnb) help
+*(hbnb)* help
 
 
 To exit the console:
 
 
-*(hbnb) quit
+*(hbnb)* quit
 
 
-**Non-Interactive Mode
+### **Non-Interactive Mode**
 
 The console can also be used in non-interactive mode by piping commands into it.
 
 For example:
 
-*bash
+*bash*
 echo "help" | ./console.py
 
 
@@ -92,17 +92,17 @@ quit
 Then run:
 
 
-*cat test_help | ./console.py
+*cat test_help | ./console.py*
 
 
- **Project Structure
+## **Project Structure
 
 The project will contain Python modules, models, storage, and tests as development continues.
 
 An example of the project structure is:
 
-
-*alu-AirBnB_clone/
+```
+alu-AirBnB_clone/
 │
 ├── console.py
 ├── models/
@@ -115,11 +115,11 @@ An example of the project structure is:
 │
 ├── README.md
 └── AUTHORS
+```
 
+### **Testing
 
- **Testing
-
-Unit tests are written using Python's `unittest` module.
+Unit tests are written using Python's unittest module.
 
 To run all tests:
 
@@ -132,7 +132,7 @@ A specific test file can also be executed:
 *python3 -m unittest tests/test_models/test_base_model.py
 
 
-**Authors
+### **Authors
 
 This project is a team project. All contributors are listed in the AUTHORS file.
 
