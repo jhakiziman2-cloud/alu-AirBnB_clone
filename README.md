@@ -1,6 +1,6 @@
-# AirBnB Clone - The Console
+**AirBnB Clone - The Console**
 
-## Description
+ **Description
 
 This project is the first step in building an AirBnB clone. The goal of this project is to create a command-line interpreter that can be used to manage AirBnB objects.
 
@@ -16,42 +16,41 @@ The project is built using Python and introduces important concepts such as:
 * Datetime
 * Unit testing
 * Command interpreters
-* `*args` and `**kwargs`
+* *args and **kwargs
 
-## Command Interpreter
+ **Command Interpreter
 
 The command interpreter is a program that provides an interactive command-line interface for managing objects in the AirBnB application.
 
 It works similarly to a shell, but instead of executing general operating-system commands, it executes commands specifically designed for this project.
 
-### How to Start It
+ ***How to Start It
 
 First, make sure the `console.py` file is executable:
 
-```bash
-chmod +x console.py
-```
+
+*chmod +x console.py
+
 
 Then start the console with:
 
-```bash
+*bash
 ./console.py
-```
+
 
 You should see:
 
-```text
-(hbnb)
-```
 
-### How to Use It
+*(hbnb)
+
+
+ *How to Use It
 
 Once the console is running, commands can be entered at the `(hbnb)` prompt.
 
 For example:
 
-```text
-$ ./console.py
+*$ ./console.py
 (hbnb) help
 
 Documented commands (type help <topic>):
@@ -60,51 +59,50 @@ EOF  help  quit
 
 (hbnb) quit
 $
-```
+
 
 You can also use `help` to display information about available commands:
 
-```text
-(hbnb) help
-```
+
+*(hbnb) help
+
 
 To exit the console:
 
-```text
-(hbnb) quit
-```
 
-### Non-Interactive Mode
+*(hbnb) quit
+
+
+**Non-Interactive Mode
 
 The console can also be used in non-interactive mode by piping commands into it.
 
 For example:
 
-```bash
+*bash
 echo "help" | ./console.py
-```
+
 
 You can also place commands inside a file:
 
-```text
 help
 quit
-```
+
 
 Then run:
 
-```bash
-cat test_help | ./console.py
-```
 
-## Project Structure
+*cat test_help | ./console.py
+
+
+ **Project Structure
 
 The project will contain Python modules, models, storage, and tests as development continues.
 
 An example of the project structure is:
 
-```text
-alu-AirBnB_clone/
+
+*alu-AirBnB_clone/
 │
 ├── console.py
 ├── models/
@@ -117,25 +115,24 @@ alu-AirBnB_clone/
 │
 ├── README.md
 └── AUTHORS
-```
 
-## Testing
+
+ **Testing
 
 Unit tests are written using Python's `unittest` module.
 
 To run all tests:
 
-```bash
-python3 -m unittest discover tests
-```
+*python3 -m unittest discover tests
+
 
 A specific test file can also be executed:
 
-```bash
-python3 -m unittest tests/test_models/test_base_model.py
-```
 
-## Authors
+*python3 -m unittest tests/test_models/test_base_model.py
 
-This project is a team project. All contributors are listed in the `AUTHORS` file.
+
+**Authors
+
+This project is a team project. All contributors are listed in the AUTHORS file.
 
