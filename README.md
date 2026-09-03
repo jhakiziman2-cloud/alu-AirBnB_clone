@@ -95,7 +95,7 @@ Then run:
 *cat test_help | ./console.py*
 
 
-## **Project Structure
+## **Project Structure**
 
 The project will contain Python modules, models, storage, and tests as development continues.
 
@@ -117,7 +117,7 @@ alu-AirBnB_clone/
 └── AUTHORS
 ```
 
-### **Testing
+### **Testing**
 
 Unit tests are written using Python's unittest module.
 
@@ -132,7 +132,7 @@ A specific test file can also be executed:
 *python3 -m unittest tests/test_models/test_base_model.py
 
 
-### **Authors
+### **Authors**
 
 This project is a team project. All contributors are listed in the AUTHORS file.
 
